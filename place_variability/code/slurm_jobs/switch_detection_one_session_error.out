@@ -1,0 +1,58 @@
+Matplotlib is building the font cache; this may take a moment.
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e15/e15_13f1/e15_13f1_220119
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/switch_detection_one_session.py", line 81, in main
+    res = analyze_data(data,*analysis_args,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/switch_detection_one_session.py", line 54, in analyze_data
+    res = tcp.detect_switch_all_steps(X,n_shuffle=n_shuffle,n_change_pts_max_MAX=n_change_pts_max_MAX,min_size=min_size)
+  File "/mnt/home/szheng/projects/place_variability/code/test_change_point.py", line 205, in detect_switch_all_steps
+    best_n = pval_df.apply(get_n_cpd,axis=1)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/frame.py", line 8845, in apply
+    return op.apply().__finalize__(self, method="apply")
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 733, in apply
+    return self.apply_standard()
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 857, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 873, in apply_series_generator
+    results[i] = self.f(v)
+  File "/mnt/home/szheng/projects/place_variability/code/test_change_point.py", line 98, in get_n_cpd
+    pval = row.loc[slice(None),'pval']
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 1143, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 765, in _validate_tuple_indexer
+    key = self._validate_key_length(key)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 812, in _validate_key_length
+    raise IndexingError("Too many indexers")
+pandas.core.indexing.IndexingError: Too many indexers
+====
+Matplotlib is building the font cache; this may take a moment.
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e15/e15_13f1/e15_13f1_220119
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/switch_detection_one_session.py", line 81, in main
+    res = analyze_data(data,*analysis_args,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/switch_detection_one_session.py", line 54, in analyze_data
+    res = tcp.detect_switch_all_steps(X,n_shuffle=n_shuffle,n_change_pts_max_MAX=n_change_pts_max_MAX,min_size=min_size)
+  File "/mnt/home/szheng/projects/place_variability/code/test_change_point.py", line 203, in detect_switch_all_steps
+    best_n = pval_df.apply(get_n_cpd,axis=1)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/frame.py", line 8845, in apply
+    return op.apply().__finalize__(self, method="apply")
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 733, in apply
+    return self.apply_standard()
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 857, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/apply.py", line 873, in apply_series_generator
+    results[i] = self.f(v)
+  File "/mnt/home/szheng/projects/place_variability/code/test_change_point.py", line 98, in get_n_cpd
+    pval = row.loc[slice(None),'pval']
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 961, in __getitem__
+    return self._getitem_tuple(key)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 1143, in _getitem_tuple
+    tup = self._validate_tuple_indexer(tup)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 765, in _validate_tuple_indexer
+    key = self._validate_key_length(key)
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexing.py", line 812, in _validate_key_length
+    raise IndexingError("Too many indexers")
+pandas.core.indexing.IndexingError: Too many indexers
+====

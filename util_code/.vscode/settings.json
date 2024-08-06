@@ -1,0 +1,4 @@
+{
+    "jupyter.jupyterServerType": "remote",
+    "notebook.output.textLineLimit": 500
+}

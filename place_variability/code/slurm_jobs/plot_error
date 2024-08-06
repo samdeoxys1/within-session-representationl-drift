@@ -1,0 +1,117 @@
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e13/e13_26m1/e13_26m1_211116
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e16/e16_3m2/e16_3m2_211212
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e16/e16_3m2/e16_3m2_211213
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e16/e16_3m1/e16_3m1_210111
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e13/e13_26m1/e13_26m1_211019
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e15/e15_13f1/e15_13f1_220119
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e15/e15_13f1/e15_13f1_220120
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e15/e15_13f1/e15_13f1_220117
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Error in session: /mnt/home/szheng/ceph/ad/roman_data/e13/e13_26m1/e13_26m1_210913
+Traceback (most recent call last):
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 197, in main
+    res = analyze_data(data,*analysis_args,save_dir=save_dir,**analysis_kwargs)
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 154, in analyze_data
+    plot_ratemap_fr_all_fields(fr_map_trial_df,all_fields_recombined,all_sw_d,trial_index_to_index_within_df,X_raw,X_pwc,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 110, in plot_ratemap_fr_all_fields
+    plot_ratemap_fr_one_field(row,fr_map_trial_df,X_raw,X_pwc,all_sw_d,
+  File "/mnt/home/szheng/projects/place_variability/code/plot_all_fr_map_x_pwc_one_session.py", line 55, in plot_ratemap_fr_one_field
+    tt_ratemap = trial_index_to_index_within_df.loc[task].loc[ma].index[0][0]
+  File "/mnt/home/szheng/ceph/envs/jax/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2075, in __getitem__
+    if level_codes[key] == -1:
+IndexError: index 0 is out of bounds for axis 0 with size 0
